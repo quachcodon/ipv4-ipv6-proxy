@@ -13,7 +13,7 @@ Redirect connections from different ports at one ipv4 address to unique random i
 
 ## Installation
 
-1. `wget https://raw.githubusercontent.com/quachcodon/ipv4-ipv6-proxy/main/setup.sh?token=GHSAT0AAAAAACBSEKEKXPWUMCSIGLE3SLI6ZB6VZFQ && chmod +x setup.sh && bash setup.sh`
+1. `wget https://raw.githubusercontent.com/quachcodon/ipv4-ipv6-proxy/main/setup.sh && chmod +x setup.sh && bash setup.sh`
 
 1. After installation dowload the file `proxy.zip`
    * File structure: `IP4:PORT:LOGIN:PASS`
