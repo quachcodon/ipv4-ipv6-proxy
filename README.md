@@ -12,9 +12,8 @@ Redirect connections from different ports at one ipv4 address to unique random i
 - Ipv6 \64
 
 ## Installation
-[Video tutorial](https://youtu.be/EKBJHSTmT4w), used as Centos setup
 
-1. `bash <(curl -s "https://raw.githubusercontent.com/dukaev/ipv6_proxy/master/scripts/install.sh")`
+1. `wget https://raw.githubusercontent.com/quachcodon/ipv4-ipv6-proxy/main/setup.sh?token=GHSAT0AAAAAACBSEKEK5YN27U6CLAXM4LAIZB6VR5Q && chmod +x setup.sh && bash setup.sh`
 
 1. After installation dowload the file `proxy.zip`
    * File structure: `IP4:PORT:LOGIN:PASS`
