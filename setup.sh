@@ -42,7 +42,7 @@ setgid 65535
 setuid 65535
 stacksize 6291456 
 flush
-proxy -4 -n -a -p30697
+proxy -p30697
 flush
 $(awk -F "/" '{print "\n" \
 "" $1 "\n" \
